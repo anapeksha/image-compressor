@@ -13,7 +13,7 @@ root.render(
 		<GlobalStyles
 			styles={{
 				body: {
-					backgroundColor: "#070723",
+					backgroundColor: "#061423",
 					WebkitFontSmoothing: "antialiased",
 					MozOsxFontSmoothing: "grayscale",
 				},
