@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import Form from "./components/Form";
+import { Form, Navbar } from "./components";
 
 function App() {
 	const [size, setSize] = useState(undefined);
@@ -14,6 +14,7 @@ function App() {
 
 	return (
 		<div>
+			<Navbar />
 			<Form
 				size={size}
 				sizeUnit={sizeUnit}
