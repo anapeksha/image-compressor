@@ -1,5 +1,4 @@
 import { AppBar, Box, Icon, Toolbar, Typography } from "@mui/material";
-import Image from "mui-image";
 import React from "react";
 import logo from "../assets/logo.svg";
 
