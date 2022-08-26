@@ -133,4 +133,4 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 [license-shield]: https://img.shields.io/github/license/anapeksha/image-compressor.svg
 [license-url]: https://github.com/anapeksha/image-compressor/blob/main/LICENSE
-[product-screenshot]: https://github.com/anapeksha/image-compressor/blob/main/assets/screenshot.png
+[product-screenshot]: https://github.com/anapeksha/image-compressor/blob/main/assets/product-screenshot.png
