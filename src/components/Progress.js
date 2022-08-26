@@ -5,17 +5,13 @@ function Progress(props) {
 	const [open, setOpen] = useState(false);
 
 	useEffect(() => {
-		handleOpen();
-	}, [props.progress]);
-
-	const handleOpen = () => {
 		if (props.progress > 0) {
 			setOpen(true);
 		}
 		if (props.progress === 100) {
 			setOpen(false);
 		}
-	};
+	}, [props.progress]);
 
 	return (
 		<Backdrop
