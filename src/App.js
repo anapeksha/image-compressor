@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import { Form, Navbar } from "./components";
 
 function App() {
@@ -7,10 +7,6 @@ function App() {
 	const [image, setImage] = useState(undefined);
 	const [convertedImage, setConvertedImage] = useState(undefined);
 	const [progress, setProgress] = useState(0);
-
-	useEffect(() => {
-		console.log(size, sizeUnit, image);
-	}, [size, sizeUnit, image, progress]);
 
 	return (
 		<div>
