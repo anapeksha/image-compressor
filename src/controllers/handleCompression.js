@@ -8,7 +8,6 @@ const handleCompression = (image, size, setProgress, setConvertedImage) => {
 	const options = {
 		maxSizeMB: size,
 		useWebWorker: true,
-		alwaysKeepResolution: false,
 		onProgress: handleProgress,
 	};
 
