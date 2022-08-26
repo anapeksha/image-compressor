@@ -17,12 +17,9 @@ function Navbar() {
 			>
 				<Toolbar>
 					<Icon sx={{ mr: 1 }}>
-						<Image
+						<img
 							src={logo}
 							height="100%"
-							fit="contain"
-							bgColor="inherit"
-							duration={0}
 							style={{
 								filter:
 									"invert(99%) sepia(0%) saturate(945%) hue-rotate(66deg) brightness(117%) contrast(100%)",
